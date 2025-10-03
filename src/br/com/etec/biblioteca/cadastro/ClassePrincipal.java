@@ -4,6 +4,12 @@ public class ClassePrincipal {
 
 	public static void main(String[] args) {
 
+		ClasseInformacoes Info_obj = new ClasseInformacoes();
+		ClasseInformacoes Info_obj2 = new ClasseInformacoes("Dom Casmurro", "Machado de Assis");
+		
+		Info_obj.mostrarDados(); //Null 0
+		
+		Info_obj2.mostrarDados(); //Null 0 autor e titulo
 
 	}
 
